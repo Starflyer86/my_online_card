@@ -56,8 +56,8 @@ li {
   padding: 5% 10%;
 }
 
-.body{
-	background-image: url(../my_online_card/assets/blue_sky.jpg);
+body{
+	background-image: url(assets/blue_sky.jpg);
   background-size: cover;
 	background-repeat: no-repeat;
   background-position: center center;
