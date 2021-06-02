@@ -57,17 +57,49 @@ li {
 }
 
 .body{
-	background: url(assets/blue_sky.jpg); 
+	background-image: url(../my_online_card/assets/blue_sky.jpg);
   background-size: cover;
 	background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
 
-.head, .content {
-	background-color: green;
+.profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0%, 0%, 0%, .8) 10px 10px 80px;
 }
 
-.profile-image, .name-line, .about, .links {
-	background-color: purple;
+img {
+    padding: 1px;
+    background-color: #666;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+}
+
+
+
+.content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(50%)
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    display: inline;
 }
