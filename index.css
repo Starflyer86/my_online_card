@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card{
+	width: 480px;
+	max-width: calc(100vw - 10 px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100vh;
+}
+
+.profile-card {
+	background-color: hsla(60, 100%, 50%, .4);
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.body{
+	background: url(assets/blue_sky.jpg); 
+  background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.head, .content {
+	background-color: green;
+}
+
+.profile-image, .name-line, .about, .links {
+	background-color: purple;
+}
